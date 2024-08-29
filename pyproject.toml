@@ -14,6 +14,12 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 
+[tool.poetry.dependencies]
+python = ">=3.10"
+pandas = "^2.2.2"
+plotly-express = "^0.4.1"
+requests = "^2.32.3"
+streamlit = "^1.38.0"
 
 [tool.black]
 line-length = 99
